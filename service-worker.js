@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LouisDonDaza/facerecogapp/precache-manifest.f6ad81833754f72f9a09a9b6709fdc1b.js"
+  "/facerecogapp/precache-manifest.3f0d80413decc083ba2340387a523940.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/LouisDonDaza/facerecogapp/index.html", {
+workbox.routing.registerNavigationRoute("/facerecogapp/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
